@@ -1,7 +1,7 @@
 {
     "name": "laravel/laravel",
     "type": "project",
-    "description": "Student Management System built with Laravel",
+    "description": "Student Management System",
     "keywords": ["laravel", "framework", "student management"],
     "license": "MIT",
     "require": {
