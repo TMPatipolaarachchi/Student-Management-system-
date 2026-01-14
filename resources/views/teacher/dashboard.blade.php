@@ -59,35 +59,6 @@
         </div>
     </div>
 
-    <!-- Quick Actions -->
-    <div class="card">
-        <h3 class="text-lg font-semibold text-gray-900 mb-4">Quick Actions</h3>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <a href="{{ route('teacher.students.create') }}" class="flex items-center p-4 border-2 border-gray-200 rounded-lg hover:border-primary-500 hover:bg-primary-50 transition-all group">
-                <div class="w-10 h-10 bg-primary-100 rounded-lg flex items-center justify-center group-hover:bg-primary-200 transition-colors">
-                    <svg class="w-5 h-5 text-primary-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
-                    </svg>
-                </div>
-                <div class="ml-4">
-                    <p class="font-semibold text-gray-900">Add New Student</p>
-                    <p class="text-sm text-gray-500">Register a new student to the system</p>
-                </div>
-            </a>
-
-            <a href="{{ route('teacher.students.index') }}" class="flex items-center p-4 border-2 border-gray-200 rounded-lg hover:border-primary-500 hover:bg-primary-50 transition-all group">
-                <div class="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center group-hover:bg-purple-200 transition-colors">
-                    <svg class="w-5 h-5 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
-                    </svg>
-                </div>
-                <div class="ml-4">
-                    <p class="font-semibold text-gray-900">View All Students</p>
-                    <p class="text-sm text-gray-500">Browse and manage student records</p>
-                </div>
-            </a>
-        </div>
-    </div>
 
     <!-- Recent Students -->
     @if($recentStudents->count() > 0)
