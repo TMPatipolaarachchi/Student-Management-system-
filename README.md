@@ -3,12 +3,6 @@
 
 **Laravel & MySQL Web Application**
 
-<img width="1920" height="1080" alt="Screenshot (124)" src="https://github.com/user-attachments/assets/bc9c67d8-930e-41ed-a326-ecf0eae656a1" />
-
-<img width="1920" height="1080" alt="Screenshot (125)" src="https://github.com/user-attachments/assets/89c808cd-4d7f-4565-8410-a58a211ff914" />
-
-<img width="1920" height="1080" alt="Screenshot (126)" src="https://github.com/user-attachments/assets/1f76a8ff-1f95-4a47-b40b-bd60ab238489" />
-
 ## 📌 Project Description
 The **Student Management System** is a Laravel-based web application designed to manage student records efficiently within an educational environment.
 The system follows the **MVC (Model–View–Controller)** architecture and provides full **CRUD functionality** for student data management.
@@ -160,4 +154,5 @@ public function update(Request $request, Student $student)
 
 ---
 
-
+📸 Screenshots
+<img width="1920" height="1080" alt="Screenshot (124)" src="https://github.com/user-attachments/assets/bc9c67d8-930e-41ed-a326-ecf0eae656a1" /> <img width="1920" height="1080" alt="Screenshot (125)" src="https://github.com/user-attachments/assets/89c808cd-4d7f-4565-8410-a58a211ff914" /> <img width="1920" height="1080" alt="Screenshot (126)" src="https://github.com/user-attachments/assets/1f76a8ff-1f95-4a47-b40b-bd60ab238489" />
