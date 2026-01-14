@@ -29,4 +29,11 @@ class DashboardController extends Controller
 
         return view('student.dashboard', compact('user', 'student'));
     }
+
+    public function viewAllStudents()
+    {
+        $students = Student::with('user')->paginate(10);
+
+        return view('teacher.students.index', compact('students'));
+    }
 }

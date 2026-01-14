@@ -27,6 +27,7 @@ Route::post('logout', [AuthenticatedSessionController::class, 'destroy'])
 Route::middleware(['auth'])->prefix('teacher')->name('teacher.')->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'teacherDashboard'])->name('dashboard');
     Route::resource('students', StudentController::class);
+    Route::get('/students', [DashboardController::class, 'viewAllStudents'])->name('students.index');
 });
 
 // Student Routes

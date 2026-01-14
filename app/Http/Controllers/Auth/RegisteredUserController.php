@@ -44,6 +44,14 @@ class RegisteredUserController extends Controller
         Auth::login($user);
 
         if ($user->isStudent()) {
+            // Create a corresponding Student record
+            \App\Models\Student::create([
+                'user_id' => $user->id,
+                'student_id' => 'STU-' . strtoupper(uniqid()),
+                'status' => 'active',
+                'enrollment_date' => now(),
+            ]);
+
             return redirect()->route('student.dashboard');
         }
 
